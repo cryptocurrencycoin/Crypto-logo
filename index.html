@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Army Fighter - Ultra Shield</title>
+    <style>
+        body { background-color: #050505; color: #00ff41; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .bunker-frame { border: 2px solid #00ff41; padding: 30px; text-align: center; box-shadow: 0 0 15px #00ff41; background: rgba(0, 20, 0, 0.9); width: 90%; max-width: 500px; }
+        h1 { font-size: 1.5rem; letter-spacing: 3px; border-bottom: 1px solid #00ff41; padding-bottom: 10px; }
+        .registration { color: #00ccff; font-weight: bold; margin-top: 20px; font-size: 0.9rem; word-wrap: break-word; }
+        .status-light { height: 12px; width: 12px; background-color: #ff0000; border-radius: 50%; display: inline-block; animation: pulse 1s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(255, 0, 0, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); } }
+        .flash-text { animation: flash 2s infinite; color: #00ff41; font-weight: bold; }
+        @keyframes flash { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    </style>
+</head>
+<body>
+    <div class="bunker-frame">
+        <h1 class="flash-text">ARMY FIGHTER</h1>
+        <p><span class="status-light"></span> SYSTEM STATUS: ULTRA SHIELD ACTIVE</p>
+        <p style="font-size: 0.8rem;">MISSION: IMPENETRABLE DEFENSIVE BLOCKCHAIN</p>
+        <hr style="border: 0.5px dashed #00ff41;">
+        <p>Sovereign Algorithm Registered:</p>
+        <div class="registration">{++C}{11 22 33}{7}{3 6 9}{Hz}{0}{0}{zH}{9 6 3}{7}{33 22 11}{C++}</div>
+    </div>
+</body>
+</html>
